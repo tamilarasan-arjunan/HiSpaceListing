@@ -31,7 +31,6 @@ namespace HiSpaceListingWeb
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
-
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 		}
 
@@ -57,7 +56,7 @@ namespace HiSpaceListingWeb
 			{
 				routes.MapRoute(
 					name: "default",
-					template: "{controller=Home}/{action=Index}/{id?}");
+					template: "{controller=Website}/{action=Index}/{id?}");
 			});
 		}
 	}
