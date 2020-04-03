@@ -13,5 +13,31 @@ namespace HiSpaceListingWeb.Controllers
 		{
 			return View();
 		}
+		public ActionResult About()
+		{
+			return View();
+		}
+		public ActionResult Contact()
+		{
+			return View();
+		}
+		public ActionResult PropertyGrid()
+		{
+			return View();
+		}
+		public ActionResult PropertyList()
+		{
+			return View();
+		}
+		public ActionResult PropertyListMap()
+		{
+			return View();
+		}
+		public ActionResult PropertyDetail()
+		{
+			return View();
+		}
+
+
 	}
 }
