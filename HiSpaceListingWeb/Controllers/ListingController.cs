@@ -8,6 +8,7 @@ namespace HiSpaceListingWeb.Controllers
 {
     public class ListingController : Controller
     {
+
         public ActionResult ListerDetail()
         {
             return View();
@@ -32,4 +33,5 @@ namespace HiSpaceListingWeb.Controllers
         {
             return View();
         }
+    }
 }

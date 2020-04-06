@@ -9,6 +9,7 @@ namespace HiSpaceListingWeb.Controllers
 {
 	public class WebsiteController : Controller
 	{
+
 		public ActionResult Index()
 		{
 			return View();
