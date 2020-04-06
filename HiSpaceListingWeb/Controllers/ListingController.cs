@@ -32,5 +32,6 @@ namespace HiSpaceListingWeb.Controllers
         {
             return View();
         }
+
     }
 }
