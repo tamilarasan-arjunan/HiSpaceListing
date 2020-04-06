@@ -8,30 +8,9 @@ namespace HiSpaceListingWeb.Controllers
 {
     public class ListingController : Controller
     {
-        public ActionResult ListerDetail()
+        public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult ListerProperty()
-        {
-            return View();
-        }
-
-        public ActionResult ListerProfile()
-        {
-            return View();
-        }
-
-        public ActionResult ListerManagement()
-        {
-            return View();
-        }
-
-        public ActionResult ListingForm()
-        {
-            return View();
-        }
-
     }
 }
